@@ -4,7 +4,6 @@
 
 import * as $$$$$$$$$$$0 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
-import * as $$$$$$1 from "./sections/Footer.tsx";
 import * as $$$$$$2 from "./sections/HelloSection.tsx";
 import * as $$$$$$4 from "./sections/ItWorks.tsx";
 import * as $$$$$$5 from "./sections/NewSection.tsx";
@@ -13,7 +12,6 @@ import * as $$$$$$6 from "./sections/Theme/Theme.tsx";
 const manifest = {
   "sections": {
   
-    "site/sections/Footer.tsx": $$$$$$1,
     "site/sections/HelloSection.tsx": $$$$$$2,
     "site/sections/ItWorks.tsx": $$$$$$4,
     "site/sections/NewSection.tsx": $$$$$$5,
