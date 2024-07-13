@@ -1,6 +1,6 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
-import Input from './Input';
+
 
 interface Props {
   href?: string;
@@ -14,7 +14,6 @@ default function Footer({ href, width = 50 }: Props) {
   return (
     <div className="py-8 lg:px-0 px-6 fixed bottom-0 w-full mx-auto">
       {/* Add the Input component here */}
-      <Input />
 
       {/* Existing code */}
       <a
