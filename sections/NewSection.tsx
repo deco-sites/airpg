@@ -5,8 +5,8 @@ interface Props {
   name?: string;
 }
 
-export default function Section({ name = "Capy" }: Props) {
+export default function Section({ name = "Cap" }: Props) {
   return (
-    <div><h1>Hello {name}</h1></div>
+    <div><h5>Hello {name}</h5></div>
   )
 }

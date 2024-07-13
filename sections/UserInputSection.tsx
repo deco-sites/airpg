@@ -47,6 +47,7 @@ export default function Section({ name = "Capy" }: Props) {
   };
 
   return (
+
     <div>
       <h1>Send Input to Gemini API</h1>
       <form onSubmit={handleSubmit}>
