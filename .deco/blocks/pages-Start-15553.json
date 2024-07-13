@@ -3,31 +3,6 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "website/flags/multivariate/section.ts",
-      "variants": [
-        {
-          "value": {
-            "__resolveType": "Preview /sections/ItWorks.tsx",
-            "name": "<h1>Peanits!</h1><p></p>",
-            "count": 1
-          },
-          "rule": {
-            "__resolveType": "website/matchers/always.ts"
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "site/sections/ItWorks.tsx",
-            "name": "<h1>Peanits!</h1><p></p>",
-            "count": 1
-          },
-          "rule": {
-            "__resolveType": "website/matchers/always.ts"
-          }
-        }
-      ]
-    },
-    {
       "__resolveType": "Preview /sections/ItWorks.tsx"
     }
   ],

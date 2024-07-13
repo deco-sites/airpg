@@ -45,38 +45,24 @@
     "blockType": "apps",
     "__resolveType": "site/apps/deco/htmx.ts"
   },
-  "/.deco/blocks/Preview%20%2Fsections%2FNewSection.tsx.json": {
-    "blockType": "sections",
-    "__resolveType": "site/sections/NewSection.tsx"
-  },
   "/.deco/blocks/Preview%20%2Fsections%2FCard.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Card.tsx"
   },
-  "/.deco/blocks/Preview%20%2Fsections%2FHelloSection.tsx.json": {
-    "blockType": "sections",
-    "__resolveType": "site/sections/HelloSection.tsx"
-  },
-  "/.deco/blocks/Preview%20site%2Fsections%2FFooter.tsx.json": {
-    "blockType": "sections",
-    "__resolveType": "site/sections/Footer.tsx"
-  },
-  "/.deco/blocks/pages-outerhtml-991461.json": {
-    "name": "outerhtml",
-    "path": "/test",
+  "/.deco/blocks/pages-test%2520input%2520gemini-295303.json": {
+    "name": "test input gemini",
+    "path": "/user_input",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
-  "/.deco/blocks/Preview%20%2Fsections%2FTheme%2FTheme.tsx.json": {
-    "blockType": "sections",
-    "__resolveType": "site/sections/Theme/Theme.tsx"
+  "/.deco/blocks/pages-My%2520New%2520Page-602898.json": {
+    "name": "My New Page",
+    "path": "/example-path",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   },
-  "/.deco/blocks/Preview%20%2Fsections%2FmySection.tsx.json": {
+  "/.deco/blocks/Preview%20%2Fsections%2FUserInputSection.tsx.json": {
     "blockType": "sections",
-    "__resolveType": "site/sections/mySection.tsx"
-  },
-  "/.deco/blocks/Preview%20%2Fsections%2FVesaoTeste.tsx.json": {
-    "blockType": "sections",
-    "__resolveType": "site/sections/VesaoTeste.tsx"
+    "__resolveType": "site/sections/UserInputSection.tsx"
   }
 }

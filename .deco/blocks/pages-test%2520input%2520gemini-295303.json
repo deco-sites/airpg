@@ -1,9 +1,10 @@
 {
-  "name": "outerhtml",
-  "path": "/test",
+  "name": "test input gemini",
+  "path": "/user_input",
   "sections": [
     {
-      "__resolveType": "website/sections/Analytics/Analytics.tsx"
+      "__resolveType": "site/sections/UserInputSection.tsx",
+      "name": "INput"
     }
   ],
   "seo": {
