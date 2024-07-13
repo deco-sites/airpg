@@ -60,5 +60,6 @@ export default function Section({ name = "It Works!", count = 0 }: Props) {
         <div class="text-sm">Powered by HTMX</div>
       </div>
     </div>
+    <input text="teste">
   );
 }

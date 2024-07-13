@@ -1,18 +1,18 @@
 {
-  "name": "Home",
-  "path": "/",
+  "name": "My New Page",
+  "path": "/example-path",
   "sections": [
     {
       "__resolveType": "site/sections/ItWorks.tsx",
-      "name": "<h1>Peanits!</h1>",
+      "name": "<p>peantis</p><p></p>",
       "count": 1
     },
     {
       "__resolveType": "Footer"
-    },
-    {
-      "__resolveType": "site/sections/Card.tsx"
     }
   ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
   "__resolveType": "website/pages/Page.tsx"
 }
