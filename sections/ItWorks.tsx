@@ -33,6 +33,8 @@ export default function Section({ name = "It Works!", count = 0 }: Props) {
 
       <div class="flex flex-col items-center justify-center gap-2">
         <div class="flex items-center gap-4">
+          <input
+            text="teste">
           <button
             hx-target="#it-works"
             hx-swap="outerHTML"
@@ -60,6 +62,6 @@ export default function Section({ name = "It Works!", count = 0 }: Props) {
         <div class="text-sm">Powered by HTMX</div>
       </div>
     </div>
-    <input text="teste">
+    
   );
 }
