@@ -3,15 +3,26 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "site/sections/ItWorks.tsx",
-      "name": "<h1>Peanits!</h1><p></p>",
-      "count": 1
-    },
-    {
-      "__resolveType": "Footer"
-    },
-    {
-      "__resolveType": "site/sections/Card.tsx"
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
+        {
+          "value": {
+            "__resolveType": "site/sections/ItWorks.tsx",
+            "name": "<h1>Peanits!</h1><p></p>",
+            "count": 1
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "site/sections/ItWorks.tsx",
+            "name": "<h1>Peanits!</h1><p></p>",
+            "count": 1
+          },
+          "rule": {
+            "__resolveType": "website/matchers/always.ts"
+          }
+        }
+      ]
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

@@ -1,0 +1,15 @@
+{
+  "name": "outerhtml",
+  "path": "/test",
+  "sections": [
+    {
+      "__resolveType": "site/sections/ItWorks.tsx",
+      "name": "<p>it works!</p>",
+      "count": 1
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

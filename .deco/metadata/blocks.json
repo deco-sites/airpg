@@ -56,5 +56,19 @@
   "/.deco/blocks/Preview%20%2Fsections%2FHelloSection.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/HelloSection.tsx"
+  },
+  "/.deco/blocks/Preview%20site%2Fsections%2FFooter.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Footer.tsx"
+  },
+  "/.deco/blocks/pages-outerhtml-991461.json": {
+    "name": "outerhtml",
+    "path": "/test",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FTheme%2FTheme.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Theme/Theme.tsx"
   }
 }
