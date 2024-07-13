@@ -108,5 +108,5 @@ describe("Section", () => {
     await new Promise((resolve) => setTimeout(resolve, 0));
 
     expect(getByText("Error in API request")).toBeIn();
-    };
+    });
 })
