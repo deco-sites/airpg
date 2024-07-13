@@ -1511,10 +1511,32 @@
             "content": [
               {
                 "type": "stack",
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
-                "width": 33.333333333333336,
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Start-15553.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 58.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
                 "activeItemIndex": 0,
                 "content": [
                   {
@@ -1525,48 +1547,7 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Preview::visibility::Preview::%7B%7D"
                     },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 33.333333333333336,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Page%20SEO::world-search::Page%20SEO::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Start-15553.json::Page%20SEO::world-search::Page%20SEO::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Page%20SEO::world-search::Page%20SEO::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 33.33333333333333,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Performance::performance::Performance::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Start-15553.json::Performance::performance::Performance::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Performance::performance::Performance::%7B%7D"
-                    },
+                    "width": 70,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -1582,35 +1563,26 @@
         "maximisedItemId": null
       },
       "tabs": {
+        "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
         "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Preview::visibility::Preview::%7B%7D": {
           "name": "Preview",
           "icon": "visibility",
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
+          "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Preview::visibility::Preview::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Page%20SEO::world-search::Page%20SEO::%7B%7D": {
-          "name": "Page SEO",
-          "icon": "world-search",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Page SEO",
-          "id": "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Page%20SEO::world-search::Page%20SEO::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Performance::performance::Performance::%7B%7D": {
-          "name": "Performance",
-          "icon": "performance",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Performance",
-          "id": "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Performance::performance::Performance::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -1739,54 +1711,25 @@
         },
         "content": [
           {
-            "type": "row",
+            "type": "stack",
             "isClosable": true,
             "reorderEnabled": true,
             "title": "",
             "content": [
               {
-                "type": "stack",
+                "type": "component",
                 "isClosable": true,
                 "reorderEnabled": true,
-                "title": "",
-                "width": 50,
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FItWorks.tsx.json::Code::code::Code::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FItWorks.tsx.json::Code::code::Code::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FItWorks.tsx.json::Code::code::Code::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 50,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FItWorks.tsx.json::Preview::visibility::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FItWorks.tsx.json::Preview::visibility::Preview::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FItWorks.tsx.json::Preview::visibility::Preview::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
+                "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FItWorks.tsx.json::Preview::visibility::Preview::%7B%7D\" />",
+                "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FItWorks.tsx.json::Preview::visibility::Preview::%7B%7D",
+                "componentName": "component",
+                "componentState": {
+                  "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FItWorks.tsx.json::Preview::visibility::Preview::%7B%7D"
+                }
               }
-            ]
+            ],
+            "width": 100,
+            "activeItemIndex": 0
           }
         ],
         "isClosable": true,
@@ -1796,17 +1739,6 @@
         "maximisedItemId": null
       },
       "tabs": {
-        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FItWorks.tsx.json::Code::code::Code::%7B%7D": {
-          "name": "Code",
-          "icon": "code",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Code",
-          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FItWorks.tsx.json::Code::code::Code::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
         "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FItWorks.tsx.json::Preview::visibility::Preview::%7B%7D": {
           "name": "Preview",
           "icon": "visibility",
@@ -2382,9 +2314,9 @@
     },
     {
       "id": "/.deco/blocks/Preview%20site%2Fsections%2FFooter.tsx.json",
-      "name": "Footer.tsx",
+      "name": "Preview site/sections/Footer.tsx",
       "pinned": false,
-      "icon": "code",
+      "icon": "block",
       "layout": {
         "settings": {
           "hasHeaders": true,
@@ -2424,7 +2356,29 @@
             "content": [
               {
                 "type": "stack",
-                "width": 33.333333333333336,
+                "width": 41.66666666666667,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FFooter.tsx.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FFooter.tsx.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FFooter.tsx.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2438,48 +2392,7 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FFooter.tsx.json::Preview::visibility::Preview::%7B%7D"
                     },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 33.333333333333336,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FFooter.tsx.json::Code::code::Code::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FFooter.tsx.json::Code::code::Code::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FFooter.tsx.json::Code::code::Code::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 33.33333333333333,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FFooter.tsx.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FFooter.tsx.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FFooter.tsx.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D"
-                    },
+                    "width": 70,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -2495,35 +2408,26 @@
         "maximisedItemId": null
       },
       "tabs": {
+        "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FFooter.tsx.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FFooter.tsx.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
         "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FFooter.tsx.json::Preview::visibility::Preview::%7B%7D": {
           "name": "Preview",
           "icon": "visibility",
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
+          "width": 70,
           "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FFooter.tsx.json::Preview::visibility::Preview::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FFooter.tsx.json::Code::code::Code::%7B%7D": {
-          "name": "Code",
-          "icon": "code",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Code",
-          "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FFooter.tsx.json::Code::code::Code::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FFooter.tsx.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D": {
-          "name": "AI Assistant",
-          "icon": "sparkle",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "AI Assistant",
-          "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FFooter.tsx.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -2574,7 +2478,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 21.186440677966107,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2596,7 +2500,7 @@
               },
               {
                 "type": "stack",
-                "width": 33.71344888846209,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2611,27 +2515,6 @@
                       "id": "%2F.deco%2Fblocks%2Fpages-outerhtml-991461.json::Preview::visibility::Preview::%7B%7D"
                     },
                     "width": 70,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 45.10011043357181,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2Fpages-outerhtml-991461.json::JSON%20Properties::data-object::JSON%20Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-outerhtml-991461.json::JSON%20Properties::data-object::JSON%20Properties::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-outerhtml-991461.json::JSON%20Properties::data-object::JSON%20Properties::%7B%7D"
-                    },
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -2667,17 +2550,6 @@
           "viewId": "Preview",
           "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-outerhtml-991461.json::Preview::visibility::Preview::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2Fpages-outerhtml-991461.json::JSON%20Properties::data-object::JSON%20Properties::%7B%7D": {
-          "name": "JSON Properties",
-          "icon": "data-object",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "JSON Properties",
-          "id": "%2F.deco%2Fblocks%2Fpages-outerhtml-991461.json::JSON%20Properties::data-object::JSON%20Properties::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -2797,7 +2669,7 @@
           "viewId": "Code",
           "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewSection.tsx.json::Code::code::Code::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": "error"
           }
         }
       }
@@ -2916,6 +2788,124 @@
           "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FTheme%252FTheme.tsx.json::Code::code::Code::%7B%7D",
           "state": {
             "__signal": "error"
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Preview%20%2Fsections%2FmySection.tsx.json",
+      "name": "Preview /sections/mySection.tsx",
+      "pinned": false,
+      "icon": "block",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FmySection.tsx.json::Preview::visibility::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FmySection.tsx.json::Preview::visibility::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FmySection.tsx.json::Preview::visibility::Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FmySection.tsx.json::Code::code::Code::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FmySection.tsx.json::Code::code::Code::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FmySection.tsx.json::Code::code::Code::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FmySection.tsx.json::Preview::visibility::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "visibility",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FmySection.tsx.json::Preview::visibility::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FmySection.tsx.json::Code::code::Code::%7B%7D": {
+          "name": "Code",
+          "icon": "code",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Code",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FmySection.tsx.json::Code::code::Code::%7B%7D",
+          "state": {
+            "__signal": null
           }
         }
       }
