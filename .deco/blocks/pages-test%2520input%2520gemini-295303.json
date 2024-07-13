@@ -4,7 +4,10 @@
   "sections": [
     {
       "__resolveType": "site/sections/UserInputSection.tsx",
-      "name": "INput"
+      "name": "a"
+    },
+    {
+      "__resolveType": "site/sections/ItWorks.tsx"
     }
   ],
   "seo": {

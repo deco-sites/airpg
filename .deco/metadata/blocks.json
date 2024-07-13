@@ -64,5 +64,17 @@
   "/.deco/blocks/Preview%20%2Fsections%2FUserInputSection.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/UserInputSection.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FHelloSection.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/HelloSection.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FNewSection.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/NewSection.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FmySection.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/mySection.tsx"
   }
 }
