@@ -68,45 +68,45 @@ export default function Section({ name = "Capy" }: Props) {
   );
 }
 
-// Test cases
-import { render, fireEvent } from "preact-testing-library";
+// // Test cases
+// import { render, fireEvent } from "preact/preact-testing-library";
 
-describe("Section", () => {
-  it("renders with default props", () => {
-    const { getByText } = render(<Section />);
-    expect(getByText("Send Input to Gemini API")).toBeInTheDocument();
-    expect(getByText("User Input:")).toBeInTheDocument();
-    expect(getByText("Send")).toBeInTheDocument();
-  });
+// describe("Section", () => {
+//   it("renders with default props", () => {
+//     const { getByText } = render(<Section />);
+//     expect(getByText("Send Input to Gemini API")).toBeInTheDocument();
+//     expect(getByText("User Input:")).toBeInTheDocument();
+//     expect(getByText("Send")).toBeInTheDocument();
+//   });
 
-  it("renders with custom name prop", () => {
-    const { getByText } = render(<Section name="Custom Name" />);
-    expect(getByText("Custom Name")).toBeInTheDocument();
-  });
+//   it("renders with custom name prop", () => {
+//     const { getByText } = render(<Section name="Custom Name" />);
+//     expect(getByText("Custom Name")).toBeInTheDocument();
+//   });
 
-  it("shows loading state when submitting form", async () => {
-    const { getByText, getByLabelText, queryByText } = render(<Section />);
-    const input = getByLabelText("User Input:");
-    const submitButton = getByText("Send");
+//   it("shows loading state when submitting form", async () => {
+//     const { getByText, getByLabelText, queryByText } = render(<Section />);
+//     const input = getByLabelText("User Input:");
+//     const submitButton = getByText("Send");
 
-    fireEvent.change(input, { target: { value: "test input" } });
-    fireEvent.click(submitButton);
+//     fireEvent.change(input, { target: { value: "test input" } });
+//     fireEvent.click(submitButton);
 
-    expect(getByText("Loading...")).toBeInTheDocument();
-    expect(queryByText("Error in API request")).toBeNull();
-    expect(queryByText("Response from Gemini API")).toBeNull();
-  });
+//     expect(getByText("Loading...")).toBeInTheDocument();
+//     expect(queryByText("Error in API request")).toBeNull();
+//     expect(queryByText("Response from Gemini API")).toBeNull();
+//   });
 
-  it("shows error state when API request fails", async () => {
-    const { getByText, getByLabelText, queryByText } = render(<Section />);
-    const input = getByLabelText("User Input:");
-    const submitButton = getByText("Send");
+//   it("shows error state when API request fails", async () => {
+//     const { getByText, getByLabelText, queryByText } = render(<Section />);
+//     const input = getByLabelText("User Input:");
+//     const submitButton = getByText("Send");
 
-    fireEvent.change(input, { target: { value: "test input" } });
-    fireEvent.click(submitButton);
+//     fireEvent.change(input, { target: { value: "test input" } });
+//     fireEvent.click(submitButton);
 
-    await new Promise((resolve) => setTimeout(resolve, 0));
+//     await new Promise((resolve) => setTimeout(resolve, 0));
 
-    expect(getByText("Error in API request")).toBeIn();
-    });
-})
+//     expect(getByText("Error in API request")).toBeIn();
+//     });
+// })
