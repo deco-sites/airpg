@@ -5,12 +5,12 @@ interface Props {
    * @description Placeholder text for the input field
    * @format rich-text
    */
-  placeholder?: string;
+  name?: string;
 }
 
 const inputValue = Signal("");
 
-export default function InputAndDisplay({ placeholder = "Enter text here" }: Props) {
+export default function Card({ name = "Enter text here" }: Props) {
   return (
     <div class="flex flex-col items-center justify-center w-full h-full p-4">
       <input

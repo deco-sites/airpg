@@ -1,67 +1,9 @@
-import { useSection } from "deco/hooks/useSection.ts";
-
-export interface Props {
-  /**
-   * @format rich-text
-   * @description The description of name.
-   * @default It Works!
-   */
-  name?: string;
-
-  count?: number;
-}
-
-export default function Section({ name = "It Works!", count = 0 }: Props) {
-  /**
-   * useSection is a nice hook for getting the HTMX link to render this section,
-   * but with the following Props
-   */
-  const downLink = useSection({ props: { count: count - 1 } });
-  const upLink = useSection({ props: { count: count + 1 } });
-
+export default function Section() {
   return (
-    <div
-      id="it-works"
-      class="container py-10 flex flex-col h-screen w-full items-center justify-center gap-16"
-    >
-      <div
-        class="leading-10 text-6xl"
-        dangerouslySetInnerHTML={{
-          __html: name,
-        }}
-      />
-
-      <div class="flex flex-col items-center justify-center gap-2">
-        <div class="flex items-center gap-4">
-          <input
-            text="teste">
-          <button
-            hx-target="#it-works"
-            hx-swap="outerHTML"
-            hx-get={downLink} // htmx link for this section with the down vote props
-            class="btn btn-sm btn-circle btn-outline no-animation"
-          >
-            <span class="inline [.htmx-request_&]:hidden">
-              -
-            </span>
-            <span class="loading loading-spinner hidden [.htmx-request_&]:inline" />
-          </button>
-          <span>{count}</span>
-          <button
-            hx-target="#it-works"
-            hx-swap="outerHTML"
-            hx-get={upLink} // htmx link for this section with the up vote props
-            class="btn btn-sm btn-circle btn-outline no-animation"
-          >
-            <span class="inline [.htmx-request_&]:hidden">
-              +
-            </span>
-            <span class="loading loading-spinner hidden [.htmx-request_&]:inline" />
-          </button>
-        </div>
-        <div class="text-sm">Powered by HTMX</div>
-      </div>
+    <div class="p-10 grid place-items-center gap-2">
+      <input id="toggle" type="checkbox" class="peer hidden" />
+      <label for="toggle" class="btn">Click Me</label>
+      <div class="hidden peer-checked:inline">Hello!</div>
     </div>
-    
   );
 }
