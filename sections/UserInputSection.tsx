@@ -9,6 +9,6 @@ interface Props {
 }
 export default function Page (){
   return (
-    
+    <div>text</div>
   );
 };
