@@ -83,7 +83,7 @@
   },
   "/.deco/blocks/Preview%20%2Floaders%2FrequestApiTest.tsx.json": {
     "blockType": "loaders",
-    "__resolveType": "website/loaders/requestApiTest.tsx"
+    "__resolveType": "loaders/requestApiTest.tsx"
   },
   "/.deco/blocks/Preview%20website%2Floaders%2Fasset.ts.json": {
     "blockType": "loaders",
