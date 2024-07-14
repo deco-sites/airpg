@@ -7,7 +7,7 @@ interface Props {
   numberOfFacts?: number;
 }
 
-async function loader({ numberOfFacts }: Props): Promise<reqApi> {
+async function loader({ numberOfFacts = 1 }: Props): Promise<reqApi> {
   const { facts } = (await fetch(`https://dogapi.dog/api/facts?number=${numberOfFacts ?? 1}`,
   ).then((r) => r.json()));
   return facts;

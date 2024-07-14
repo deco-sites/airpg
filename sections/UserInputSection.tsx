@@ -7,7 +7,7 @@ export interface Props {
 }
 
 export default function SectionUser(
-  { title, req }: Props,
+  { title = "title", req }: Props,
 ) {
   return (
     <div class="p-4">
