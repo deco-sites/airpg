@@ -76,5 +76,17 @@
   "/.deco/blocks/Preview%20%2Fsections%2FmySection.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/mySection.tsx"
+  },
+  "/.deco/blocks/Preview%20website%2Floaders%2Fimage.ts.json": {
+    "blockType": "loaders",
+    "__resolveType": "website/loaders/image.ts"
+  },
+  "/.deco/blocks/Preview%20%2Floaders%2FrequestApiTest.tsx.json": {
+    "blockType": "loaders",
+    "__resolveType": "site/loaders/requestApiTest.tsx"
+  },
+  "/.deco/blocks/Preview%20website%2Floaders%2Fasset.ts.json": {
+    "blockType": "loaders",
+    "__resolveType": "website/loaders/asset.ts"
   }
 }
