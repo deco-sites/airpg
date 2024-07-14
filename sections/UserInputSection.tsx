@@ -11,6 +11,7 @@ export default function SectionUser(
 ) {
   return (
     <div class="p-4">
+    <h1> Teste </h1>
       <h1 class="font-bold">{title}</h1>
       <ul>
         {req?.map((fact) => <li>{fact}</li>)}
