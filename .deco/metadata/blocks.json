@@ -92,5 +92,9 @@
   "/.deco/blocks/Preview%20%2Fsections%2FTheme%2FTheme.tsx.json": {
     "blockType": "sections",
     "__resolveType": "/sections/Theme/Theme.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Floaders%2FUi.tsx.json": {
+    "blockType": "loaders",
+    "__resolveType": "/loaders/Ui.tsx"
   }
 }
