@@ -4,8 +4,7 @@
 
 import * as $$$$$$$$$$$0 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
-import * as $$$1 from "./loaders/requestApiTest.tsx";
-import * as $$$0 from "./loaders/Ui.tsx";
+import * as $$$0 from "./loaders/requestApiTest.tsx";
 import * as $$$$$$0 from "./sections/HelloSection.tsx";
 import * as $$$$$$1 from "./sections/ItWorks.tsx";
 import * as $$$$$$5 from "./sections/mySection.tsx";
@@ -15,8 +14,7 @@ import * as $$$$$$4 from "./sections/UserInputSection.tsx";
 
 const manifest = {
   "loaders": {
-    "site/loaders/requestApiTest.tsx": $$$1,
-    "site/loaders/Ui.tsx": $$$0,
+    "site/loaders/requestApiTest.tsx": $$$0,
   },
   "sections": {
     "site/sections/HelloSection.tsx": $$$$$$0,
